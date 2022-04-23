@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import React, { Fragment } from 'react';
+
+import TagLine from './TagFolder/TagLine';
+import FormContainer from './FormFolder/FormContainer'
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <div id="main-1">
+        <div id='main-2'>
+          <TagLine />
+        </div>
+        <div id='main-3'>
+          <FormContainer />
+        </div>
+      </div>
+    </Fragment>
+    
   );
 }
 

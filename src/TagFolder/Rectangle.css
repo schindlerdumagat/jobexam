@@ -1,0 +1,9 @@
+#rectangle {
+	width: 59.7vw;
+	height: 31.9vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff, transparent, transparent);
+	opacity: 0.8;
+}
